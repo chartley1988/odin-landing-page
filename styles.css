@@ -57,9 +57,12 @@ header {
 
 .hero-right-side {
     display: flex;
+    width: 50%;
+    flex-shrink: none;
+    height: auto;
     justify-content: center;
     align-items: center;
-    min-width: 200px;
+    align-self: center;
     color: #F9FAF8;
     border-radius: 2rem;
     background-color: #e5e7eb87;
