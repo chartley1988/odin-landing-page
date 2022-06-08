@@ -16,6 +16,10 @@ section,header,footer, .inspirational {
 
 body {
     width: 100vw;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content:space-between
 }
 
 h2 {
@@ -33,6 +37,7 @@ a:any-link {
 }
 
 header {
+    flex: 1;
     background-color: #1F2937;
     padding-top: 1.2rem;
     padding-bottom: 1.2rem;
@@ -43,8 +48,10 @@ header {
 }
 
 footer {
+    flex: 1;
     background-color: #1F2937;
     color: #E5E7EB;
+    justify-self: flex-end;
 }
 
 footer p {
@@ -61,6 +68,7 @@ footer p {
 
 /*--- Hero Section ---*/
 .hero {
+    flex: 1;
     padding-top: 6rem;
     padding-bottom: 6rem;
     background-color: #1F2937;
@@ -113,6 +121,7 @@ a.signup {
 
 /*--- Card Container ---*/
 .card-container {
+    flex: 1;
     margin: 4rem 0 4rem 0;
     display: flex;
     width: 100%;
@@ -154,6 +163,7 @@ a.signup {
 
 /*--- Inspiration Quote --- */
 .inspirational {
+    flex: 1;
     padding-bottom: 4rem;
     padding-top: 4rem;
     background-color: #E5E7EB;
@@ -176,6 +186,7 @@ a.signup {
 
 /*--- Call to Action! ---*/
 .action-container {
+    flex: 1;
     margin-top: 2rem;
     margin-bottom: 2rem;
     background-color: #3882F6;
