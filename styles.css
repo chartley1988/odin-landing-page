@@ -39,6 +39,7 @@ a:any-link {
 header {
     flex: 1;
     background-color: #1F2937;
+    margin-bottom: -3px; /* This might be controversial... Fixes phantom white hairline between the header and the hero sections*/
     padding-top: 1.2rem;
     padding-bottom: 1.2rem;
     font-size: 24px;
